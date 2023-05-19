@@ -221,4 +221,49 @@
     // console.log(ctoa("m"));
 
 
+// 16. Два равно десяти
 
+    // function makesTen(a, b) 
+    // {
+    //     if (a == 10 || b == 10 || a+b==10){
+    //      return true;
+    //     } 
+    //      return false;
+    //  }
+
+
+// 17. Исправить неработающий код
+
+    // function sortWord(word) {
+    //     return word.split("").sort().join("")
+    //     }
+    // console.log(sortWord("dcba"));
+
+
+//18.Даже всю дорогу
+
+    // function getOnlyEvens(nums) {
+    // 	return nums.filter((a,b)=>a%2==0&&b%2==0 )
+    // }
+    // console.log(getOnlyEvens([1, 3, 2, 6, 4, 8]));
+
+
+// 19.Проверьте, находится ли число в заданном диапазоне
+
+    // function isInRange(num, range) 
+    // {
+    // 	if(num>=range.min && num<=range.max){
+    // 	return true ;
+    // 	}
+    // 	return false;
+    // }
+    // console.log(isInRange(4, { min: 0, max: 5 }));
+    // console.log(isInRange(4, { min: 6, max: 10 }));
+
+// 20.Серия ограблений (14): всего прилагательных
+
+    // function totalAmountAdjectives(obj) {
+    // 	return Object.values(obj).length
+    // }
+    // console.log(totalAmountAdjectives({ a: "moron" }));
+    // console.log(totalAmountAdjectives({ a: "idiot", b: "idiot", c: "idiot" }));
