@@ -67,7 +67,7 @@
 
 
 
-// very-easy
+// VERY-EASY
 
 // 1. Преобразование строк и чисел
 
@@ -171,3 +171,54 @@
 // 	} 
 // 		return `Today, I am feeling ${mood}`;
 // }
+
+// 11. Существует ли число?
+
+    // function validStrNumber(n) {
+    // 	if(isNaN(n)){
+    // 		return false;
+    // 	}
+    // 	return true;
+    // }
+    // console.log(validStrNumber("3.2"));
+    // console.log(validStrNumber("32..4"));
+
+// 12.Считайте слоги
+
+    // function countSyllables(str) {
+    // 	return str.length/2;
+    // }
+    // console.log(countSyllables("Hehehehehehe"));
+
+
+// 13.Квадраты и кубы
+
+    // function checkSquareAndCube(arr) 
+    // {
+    //     let sqrt = Math.sqrt(arr[0]);
+    //     let cub = Math.cbrt(arr[1]);
+    // 	if(sqrt == cub){
+    // 	return true;
+    // 	}
+    // 	return false;
+    // }
+    // console.log(checkSquareAndCube([4, 8]));
+    // console.log(checkSquareAndCube([16, 48]));
+
+
+// 14. Присвоение деструктуризации
+
+    // writeyourcodehere = [1, 2, 3, 4, 5, 6, 7, 8]
+    // let [first,second,third,...other]= writeyourcodehere
+
+	
+// 15.Char-to-ASCII
+
+    // function ctoa(c) {
+    // 	return c.charCodeAt();
+    // }
+    // console.log(ctoa("A"));
+    // console.log(ctoa("m"));
+
+
+
